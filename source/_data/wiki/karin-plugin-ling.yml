@@ -1,0 +1,33 @@
+name: 铃插件
+title: Karin-plugin-ling
+subtitle: '基于 Karin 编写 | Designed by 瑜笙'
+tags: Karin-plugin
+icon: /assets/wiki/karin-plugin-ling/icon.png
+cover: /assets/wiki/karin-plugin-ling/icon.png
+description: 基于 Karin 编写,提供强大功能的插件
+repo: yusheng929/karin-plugin-ling
+search:
+  filter: /wiki/karin-plugin-ling/
+  placeholder: 在 铃插件 中搜索...
+leftbar: 
+  - tree
+  - timeline_stellar_releases
+  - related
+comment_title: '评论区仅供交流，有问题请提 [issue](https://github.com/yusheng929/karin-plugin-ling/issues) 反馈。'
+comments:
+  service: giscus
+  giscus:
+    data-repo: yusheng929/karin-plugin-ling
+    data-mapping: number
+    data-term: 118
+base_dir: /wiki/karin-plugin-ling/
+tree:
+  '快速开始':
+    - index
+    - install
+    - config
+  '功能':
+    - group
+  '其他':
+    - qua
+    - developer
